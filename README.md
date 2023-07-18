@@ -6,3 +6,4 @@
 3.area of circle
 4.area of triangle
 5.my address
+6.addition of two numbers
