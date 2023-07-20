@@ -1,16 +1,19 @@
 import java.util.*;
-class natural{
+class first{
 public static void main(String[]args)
 {
-int i=1;
 Scanner in=new Scanner(System.in);
 System.out.print("enter a number:");
 int n=in.nextInt();
-while( i<=n)
+int temp=n;
+int num=0;
+while(n!=0)
 {
-int sum=sum+i;
-i++;
+ num=n%10;
+n=n/10;
+
 }
-System.out.print("sum of the series is:"+sum);
+System.out.println("first:"+num);
+System.out.println("last num:"+(temp%10));
 }
 }
